@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="New Project" package="NewProject" version="1.0.0" company="" />
+	<app main="Main" file="NewProject" path="bin" />
+	<window background="#000000" fps="60" />
+	<window width="800" height="480" unless="mobile" />
+	<window orientation="landscape" vsync="false" antialiasing="0" if="cpp" />
+	<haxelib name="openfl" />	
+	<assets path="test_new.json" rename="test_new.json" />
+	<assets path="test_old.json" rename="test_old.json" />
+</project>
