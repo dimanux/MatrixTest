@@ -61,10 +61,10 @@ class Main
 		trace("Decompose test passed old(" + result_old.test1 + "%) new(" + result_new.test1 + "%)");
 		trace("Recompose test passed old(" + result_old.test2 + "%) new(" + result_new.test2 + "%)");
 		trace("Recompose test after 'scaleX = 1.0' passed old(" + result_old.test3 + "%) new(" + result_new.test3 + "%)");
-		trace("Decompose test after 'scaleY = 1.0' passed old(" + result_old.test4 + "%) new(" + result_new.test4 + "%)");
-		trace("Decompose test after 'rotation = 0.0' passed old(" + result_old.test5 + "%) new(" + result_new.test5 + "%)");
-		trace("Decompose test after 'x = 0.0' passed old(" + result_old.test6 + "%) new(" + result_new.test6 + "%)");
-		trace("Decompose test after 'y = 0.0' passed old(" + result_old.test7 + "%) new(" + result_new.test7 + "%)");
+		trace("Recompose test after 'scaleY = 1.0' passed old(" + result_old.test4 + "%) new(" + result_new.test4 + "%)");
+		trace("Recompose test after 'rotation = 0.0' passed old(" + result_old.test5 + "%) new(" + result_new.test5 + "%)");
+		trace("Recompose test after 'x = 0.0' passed old(" + result_old.test6 + "%) new(" + result_new.test6 + "%)");
+		trace("Recompose test after 'y = 0.0' passed old(" + result_old.test7 + "%) new(" + result_new.test7 + "%)");
 		
 		#end
 	}
